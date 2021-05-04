@@ -11,10 +11,11 @@ const Contact = () => {
             <main className='page'>
                <section className="contact-page">
                    <article className='contact-info'>
-                   <h3>Aici e titlu</h3>
-                   <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam nisi soluta corporis tempora adipisci repellendus, facilis dolores iste vitae velit!</p>
-                   <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam nisi soluta corporis tempora adipisci repellendus, facilis dolores iste vitae velit!</p>
-                   <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam nisi soluta corporis tempora adipisci repellendus, facilis dolores iste vitae velit!</p>
+                   <h3>Scrie-mi un mesaj</h3>
+                   <p>Vrei să vorbim? Completează formularul alăturat și îți voi răspunde în cel mai scurt timp posibil.</p>
+                   <p>Ai vreo retetă pe care vrei să o împărtășești cu noi? Scrie-mi și o să revin cu detalii. </p>
+                   <p>Pot fi contactat de asemenea la adresele de mail: <span>sport@mihaibenta.com </span>și <span>webdev@mihaibenta.com</span></p>
+                   <h3>Poftă bună!</h3>
                     </article>
                 <article>
                     <form className='form contact-form'
