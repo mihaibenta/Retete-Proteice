@@ -19,14 +19,14 @@ const  RecipeTemplate = ({data}) => {
         grasimi,
         kcal,
         description:{description},
-        image,
+        image,   
         } 
         = data.contentfulRecipe
         const pathToImage = getImage(image)
         const {tags,instructions,ingredients,tools} = content
     return ( 
         <Layout>
-            <Seo title={title} desciption={description}/>
+            <Seo title={title} description={description}/>
         <main className='page'>
             <div className='recipe-page'>
                 <section className='recipe-hero'>
@@ -64,7 +64,7 @@ const  RecipeTemplate = ({data}) => {
                     </article>
                 </section>
                 <section className="recipe-content">
-                    <article>
+                    <article className='instructiuni'>
                         <h4>instrucțiuni</h4>
                         {instructions.map((item,index)=>{
                             return (<div key={index} className='single-instruction'>
@@ -73,7 +73,28 @@ const  RecipeTemplate = ({data}) => {
                                     </header>
                                     <p>{item}</p>
                             </div>)
+                            
                         })}
+                          <div className='nutrition'>
+                            <h4>valori nutriționale per 100g* </h4>
+                            <table>
+                                <tbody>
+                                <tr>
+                                <th>Proteine</th>
+                                <th>Carbohidrați</th>
+                                <th>Grăsimi</th>
+                                <th>Kcal</th>
+                                </tr>
+                                <tr>
+                                    <td>{proteine}</td>
+                                    <td>{carbohidrati}</td>
+                                    <td>{grasimi}</td>
+                                    <td>{kcal}</td>
+                                </tr>
+                                </tbody>
+                            </table>
+                            <p className='tabel-nutritie'> * Valorile nutriționale ale alimentelor au fost calculate înainte de gătire</p>
+                        </div>
                     </article>
                     <article className='second-column'>
                         <div>
@@ -95,26 +116,7 @@ const  RecipeTemplate = ({data}) => {
                     </article>
                     
                 </section>
-                <div className='nutrition'>
-                            <h4>valori nutriționale per 100g* </h4>
-                            <table>
-                                <tbody>
-                                <tr>
-                                <th>Proteine</th>
-                                <th>Carbohidrați</th>
-                                <th>Grăsimi</th>
-                                <th>Kcal</th>
-                                </tr>
-                                <tr>
-                                    <td>{proteine}</td>
-                                    <td>{carbohidrati}</td>
-                                    <td>{grasimi}</td>
-                                    <td>{kcal}</td>
-                                </tr>
-                                </tbody>
-                            </table>
-                            <p className='tabel-nutritie'> * Valorile nutriționale ale alimentelor au fost calculate înainte de gătire</p>
-                        </div>
+              
             </div>
         </main>
        </Layout> 

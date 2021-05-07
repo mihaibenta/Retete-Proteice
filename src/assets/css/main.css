@@ -362,6 +362,10 @@ form>*:last-child {
 /* Navbar */
 /*#########*/
 
+.instructiuni {
+    display:grid
+}
+
 .tabel-nutritie {
     font-size:12px;
 }
@@ -388,7 +392,7 @@ th {
 }
 
 tr:nth-child(even) {
-    background-color: #645cff;
+    background-color: #8bc34a;
 }
 
 .navbar {

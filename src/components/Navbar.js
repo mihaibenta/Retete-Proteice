@@ -22,7 +22,7 @@ const Navbar = () => {
                     <FiAlignJustify/>
                 </button>
                 </div>
-                   <div className={show ? 'nav-links show-links':'nav-links'}>
+                   <div className={show  ? 'nav-links show-links':'nav-links'}>
                         <Link to='/' 
                             className='nav-link'
                             activeClassName='active-link'
