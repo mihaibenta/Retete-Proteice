@@ -13,9 +13,10 @@ const About = ({data:{allContentfulRecipe:{nodes:recipes}}}) => {
            <main className='page'>
                 <section className='about-page'>
                     <article>
-                        <h2>Aici este titlul pentru about page</h2>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nesciunt molestiae vero iusto sit beatae velit, mollitia quisquam ut sed earum officiis unde doloremque adipisci veritatis, nobis et distinctio corporis! Fugit?</p>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam fugit quam beatae, odit, repellendus consequuntur ipsa nostrum facere necessitatibus animi harum. Fugit in totam, consequuntur assumenda vitae necessitatibus laboriosam dolores?</p>
+                        <h2>Sursa ta de alimente bogate în proteine</h2>
+                        <p>Scopul site-ului este să îți ofere variante cât mai sănătoase pentru alimentele tale preferate, este perfect pentru persoanele care nu vor o dietă "clasică" și vor cât mai multă diversitate în alimentație.</p>
+                        <p>Accesul este 100% gratuit, fără reclame sau sponsorizări. Toate alimentele prezentate sunt alegerea  mea personală.</p>
+                        <p>Informațiile întâlnite pe site au caracter informativ și educațional, este responsabilitate fiecăruia dintre noi să filtreze informațiile întâlnite pe web. Dacă considerați ca este nevoie consultați medicul dvs. personal.</p>
                         <Link to ='/contact' className='btn'>
                             contact
                         </Link>
