@@ -11,7 +11,7 @@ const Contact = () => {
             <main className='page'>
                <section className="contact-page">
                    <article className='contact-info'>
-                   <h3>Scrie-mi un mesaj</h3>
+                   <h3>Scrie-mi un mesaj!!!</h3>
                    <p>Vrei să vorbim? Completează formularul alăturat și îți voi răspunde în cel mai scurt timp posibil.</p>
                    <p>Ai vreo retetă pe care vrei să o împărtășești cu noi? Scrie-mi și o să revin cu detalii. </p>
                    <p>Pot fi contactat de asemenea la adresele de mail: <span>sport@mihaibenta.com </span>și <span>webdev@mihaibenta.com</span></p>
